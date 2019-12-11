@@ -1,6 +1,6 @@
 ---
 title: "3D Computer Vision"
-excerpt: "<div>New methods for 3D modeling and ego-motion estimation from images and video<br/><img src='/images/yfp3-crop.png' class='teaser'></div>"
+excerpt: "New methods for 3D modeling and ego-motion estimation from images and video"
 collection: research
 ---
 

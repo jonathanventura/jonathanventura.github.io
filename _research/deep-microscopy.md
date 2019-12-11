@@ -1,6 +1,6 @@
 ---
 title: "Deep Learning for Microscope Image Enhancement"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/yfp3-crop.png'>"
+excerpt: "Exploring computational methods to achieve super-resolution and extreme low-light optical imaging<br/><img src='/images/yfp3-crop.png'>"
 collection: research
 ---
 

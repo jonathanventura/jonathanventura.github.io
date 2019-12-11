@@ -1,7 +1,9 @@
 ---
-title: "Deep Learning for Microscope Image Analysis"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Deep Learning for Microscope Image Enhancement"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/yfp3-crop.png'>"
 collection: research
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Optical microscopes have a fundamental limit of about 200 nm resolution; however, many important biological structures and phenomena are only visible at the nanoscale.  This NIH-funded project explores computational methods to achieve super-resolution optical imaging, through methods such as structured illumination and single molecule localization.  We are applying the tools of deep learning to develop the next generation of these methods to increase their speed and flexibility.   A second aim of the project is to use deep learning to build computational super-resolution techniques than can cope with extreme low-light imaging conditions, so that we can image live cells over long periods without harming the sample. 
+
+Sponsor: National Institute Of General Medical Sciences of the National Institutes of Health via University of Colorado Colorado Springs

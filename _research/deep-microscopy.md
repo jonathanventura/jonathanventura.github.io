@@ -1,6 +1,6 @@
 ---
 title: "Deep Learning for Microscope Image Enhancement"
-excerpt: "<div><img src='/images/yfp3-crop.png' class='teaser'>Exploring computational methods to achieve super-resolution and extreme low-light optical imaging</div>"
+excerpt: "<div><div width=30%><img src='/images/yfp3-crop.png'></div><div>Exploring computational methods to achieve super-resolution and extreme low-light optical imaging</div></div>"
 collection: research
 ---
 

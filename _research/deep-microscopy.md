@@ -1,5 +1,5 @@
 ---
-title: "Deep Learning for Microscope Image Enhancement"
+title: "Deep learning for microscope image enhancement"
 excerpt: "Exploring computational methods to achieve super-resolution and extreme low-light optical imaging"
 collection: research
 ---

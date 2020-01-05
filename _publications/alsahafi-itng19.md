@@ -4,5 +4,6 @@ authors: "Yousef Alsahafi and Daniel Lemmond and Jonathan Ventura and Terrance B
 collection: "publications"
 permalink: "/publication/alsahafi-itng19"
 date: 2019-01-01
+venue: "International Conference on Information Technology-New Generations (ITNG 2019)"
 paperurl: "/files/alsahafi-itng19.pdf"
 ---

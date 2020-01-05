@@ -3,7 +3,7 @@ title: "Geospatial Management and Utilization of Large-Scale Urban Visual Recons
 authors: "Clemens Arth and Jonathan Ventura and Dieter Schmalstieg"
 collection: "publications"
 permalink: "/publication/ventura-comgeo13"
-date: 01-01-2013
+date: 2013-01-01
 venue: "The 4th International Conference on Computing for Geospatial Research \& Application (COM.Geo 2013)"
 paperurl: "/files/ventura-comgeo13.pdf"
 ---

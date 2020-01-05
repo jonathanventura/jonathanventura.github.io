@@ -1,5 +1,5 @@
 ---
-title: "POSTER: Indirect Augmented Reality Browser for GIS Data"
+title: "Indirect Augmented Reality Browser for GIS Data"
 authors: "Patrick Skinner and Jonathan Ventura and Stefanie Zollmann"
 collection: "publications"
 permalink: "/publication/skinner-ismar18"

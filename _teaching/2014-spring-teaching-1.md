@@ -1,9 +1,9 @@
 ---
-title: "Teaching experience 1"
+title: "CPE 428: Computer Vision"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
+permalink: /teaching/cpe-428-computer-vision
+venue: "Cal Poly"
 date: 2014-01-01
 location: "City, Country"
 ---

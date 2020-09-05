@@ -4,3 +4,5 @@ excerpt: "Developing neural network models to catalog forests and evaluate post-
 collection: research
 ---
 
+
+Sponsor: California Department of Forestry and Fire Protection

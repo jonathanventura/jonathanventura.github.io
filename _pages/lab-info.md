@@ -23,7 +23,7 @@ Datasets can be stored under
 Everything is done through Docker on the server.
       
 
-To use Docker, you need to create a Dockerfile and stored in a directory called "docker."  Here is an example Dockerfile for Tensorflow:
+To use Docker, you need to create a Dockerfile and store it in a sub-directory.   For example, create a textfile at "docker/Dockerfile."  Here is an example Dockerfile for Tensorflow:
       
     FROM tensorflow/tensorflow:latest-gpu-py3
     RUN apt-get update ; apt-get install vim git wget -y

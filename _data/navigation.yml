@@ -9,6 +9,9 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
+  - title: "Lab"
+    url: /lab/
+    
   - title: "CV"
     url: /files/ventura_cv.pdf
     

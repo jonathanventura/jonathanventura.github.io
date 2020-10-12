@@ -4,6 +4,9 @@ title: "Lab Information"
 permalink: /lab/
 author_profile: false
 ---
+
+{% include base_path %}
+
 # Lab Information #
 
 ## Server Info ##

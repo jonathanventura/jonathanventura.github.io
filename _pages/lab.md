@@ -1,3 +1,9 @@
+---
+layout: archive
+title: "Lab Information"
+permalink: /lab/
+author_profile: false
+---
 # Lab Information #
 
 ## Server Info ##

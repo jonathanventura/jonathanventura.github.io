@@ -7,8 +7,6 @@ author_profile: false
 
 {% include base_path %}
 
-# Lab Information #
-
 ## Server Info ##
 
 The lab has a multi-GPU server on campus dedicated to research use called El Capitan.
@@ -42,7 +40,7 @@ To build the Dockerfile:
       
     docker build docker -t <tag>
 
-You can choose whatever you want for <tag>.
+You can choose whatever you want for the tag.
       
 To start Docker:
       

@@ -25,12 +25,16 @@ Datasets can be stored under
   
     /data2
 
+or
+
+    /data3
+    
 ### Docker ###
 
 Everything is done through Docker on the server.
       
 
-To use Docker, you need to create a Dockerfile and store it in a sub-directory.   For example, create a textfile at "docker/Dockerfile."  Here is an example Dockerfile for Tensorflow:
+To use Docker, you need to create a Dockerfile and store it in a sub-directory.   For example, create a text file at "docker/Dockerfile."  Here is an example Dockerfile for Tensorflow:
       
     FROM tensorflow/tensorflow:latest-gpu-py3
     RUN apt-get update ; apt-get install vim git wget -y
@@ -44,7 +48,7 @@ You can choose whatever you want for the tag.
       
 To start Docker:
       
-    docker run -u $(id -u):$(id -g) --rm --gpus=1 -it -v /data:/data -v /data2:/data2 -e USER=$USER -e HOME=/data/$USER -w $PWD <tag> bash
+    docker run -u $(id -u):$(id -g) --rm --gpus=1 -it -v /data:/data -v /data2:/data2 -v /data3:/data3 -e USER=$USER -e HOME=/data/$USER -w $PWD <tag> bash
 
 ### tmux ###
       

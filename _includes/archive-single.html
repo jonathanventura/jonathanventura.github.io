@@ -26,16 +26,14 @@
       </div>
     {% endif %}
 
-    <p class="archive__item-title" itemprop="headline">
+    <h3 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-    </p>
+    </h3>
     
-    <div class="archive__outer">
-
     {% if post.authors %}<p class="page__authors">{{ post.authors | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
     
     {% if post.read_time %}
@@ -45,7 +43,7 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} <a href="{{ post.paperurl }}"><img src="/images/icons8-pdf-30.png"></a></p>
+          <p class="page__venue">{{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }} <a href="{{ post.paperurl }}"><img src="/images/icons8-pdf-30.png"></a></p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -55,6 +53,6 @@
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
-</div>
-  </article>
+
+</article>
 </div>

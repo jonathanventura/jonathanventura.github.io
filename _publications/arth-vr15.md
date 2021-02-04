@@ -4,5 +4,5 @@ authors: "Clemens Arth and Christian Pirchheim and Jonathan Ventura and Dieter S
 collection: "publications"
 permalink: "/publication/arth-vr15"
 date: 2015-01-01
-paperurl: "/files/arth-vr15.pdf"
+#paperurl: "/files/arth-vr15.pdf"
 ---

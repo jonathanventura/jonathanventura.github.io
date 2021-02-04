@@ -16,12 +16,6 @@
   }
 }
 
-.page__authors {
-  margin-top: 0;
-   margin-bottom: 0;
- font-size: smaller;
-}
-
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);
@@ -47,6 +41,19 @@
   & + .page__meta {
     margin-top: -0.5em;
   }
+}
+
+
+.page__authors {
+  margin-top: 0;
+   margin-bottom: 0;
+ font-size: 75%;
+}
+
+.page__venue {
+   margin-top: 0;
+   margin-bottom: 0;
+   font-size: 50%;
 }
 
 .page__lead {

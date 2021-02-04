@@ -33,6 +33,8 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </p>
+    
+    <div class="outer">
 
     {% if post.authors %}<p class="page__authors">{{ post.authors | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
     
@@ -53,6 +55,6 @@
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
-    
+</div>
   </article>
 </div>

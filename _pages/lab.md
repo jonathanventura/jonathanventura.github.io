@@ -48,7 +48,13 @@ You can choose whatever you want for the tag.
       
 To start Docker:
       
-    docker run -u $(id -u):$(id -g) --rm --gpus=1 -it -v /data:/data -v /data2:/data2 -v /data3:/data3 -e USER=$USER -e HOME=/data/$USER -w $PWD <tag> bash
+    docker run -u $(id -u):$(id -g) --rm --gpus device=<gpu> -it -v /data:/data -v /data2:/data2 -v /data3:/data3 -e USER=$USER -e HOME=/data/$USER -w $PWD <tag> bash
+    
+Set <gpu> to the GPU number that you want to use (0,1,2, or 3).  You can use 
+    
+    nvidia-smi
+    
+to check GPU availability.
 
 ### tmux ###
       

@@ -9,7 +9,7 @@ author_profile: false
 
 ## Server Info ##
 
-The lab has a multi-GPU server on campus dedicated to research use called El Capitan.
+The lab has two multi-GPU servers on campus dedicated to research use: El Capitan and Half Dome.
 
 ### Logging In ###
 

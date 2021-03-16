@@ -34,7 +34,7 @@ or
 
 We are moving towards using Anaconda instead of Docker to manage Python configurations.
 
-You first need to install Miniconda.  First run:
+You first need to install Miniconda.  Run:
 
     /data/install_conda.sh
     
@@ -44,6 +44,34 @@ Then, after exiting out and reconnecting, run:
 
 #### Creating Conda environments ####
 
+You can create a conda environment using "conda create."  For example:
+
+    conda create --name tf tensorflow-gpu==2.2.0
+    
+will create an environment named "tf" that has a GPU-compatible version of Tensorflow 2.2.0 installed.
+
+To use the environment, do:
+
+    conda activate tf
+    
+For more dependencies, you can create a file that lists them named environment.yml:
+
+   name: tf
+   channels:
+       - conda
+       - conda-forge
+   dependencies:
+       - python==3.6
+       - pip>=10.0
+       - tensorflow-gpu==2.2.0
+       -pip:
+           -tensorflow-addons=0.10.0
+
+Now do:
+
+    conda env create
+    
+to create the environment using the environment.yml file that you created.
 
 ### Docker ###
 

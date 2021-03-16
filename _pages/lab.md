@@ -73,6 +73,16 @@ Now do:
     
 to create the environment using the environment.yml file that you created.
 
+To select which GPU to use, you can do:
+
+    export CUDA_VISIBLE_DEVICES=<0,1,2, or 3>
+    
+Use
+
+    nvidia-smi
+    
+to check GPU availability.
+
 ### Docker ###
 
 Docker should only be used if you can't get a working set up with conda.

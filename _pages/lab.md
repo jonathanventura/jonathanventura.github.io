@@ -85,7 +85,7 @@ to check GPU availability.
 
 ### Docker ###
 
-Docker should only be used if you can't get a working set up with conda.
+Docker should only be used if you can't get a working set up with conda.  You need to be added to the docker group in order to use docker.
 
 To use Docker, you need to create a Dockerfile and store it in a sub-directory.   For example, create a text file at "docker/Dockerfile."  Here is an example Dockerfile for Tensorflow:
       

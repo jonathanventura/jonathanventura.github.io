@@ -29,10 +29,25 @@ or
 
     /data3
     
+    
+### Conda ###
+
+We are moving towards using Anaconda instead of Docker to manage Python configurations.
+
+You first need to install Miniconda.  First run:
+
+    /data/install_conda.sh
+    
+Then, after exiting out and reconnecting, run:
+
+    conda update -y conda
+
+#### Creating Conda environments ####
+
+
 ### Docker ###
 
-Everything is done through Docker on the server.
-      
+Docker should only be used if you can't get a working set up with conda.
 
 To use Docker, you need to create a Dockerfile and store it in a sub-directory.   For example, create a text file at "docker/Dockerfile."  Here is an example Dockerfile for Tensorflow:
       

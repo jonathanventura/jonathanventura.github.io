@@ -56,16 +56,16 @@ To use the environment, do:
     
 For more dependencies, you can create a file that lists them named environment.yml:
 
-   name: tf
-   channels:
-       - conda
-       - conda-forge
-   dependencies:
-       - python==3.6
-       - pip>=10.0
-       - tensorflow-gpu==2.2.0
-       -pip:
-           -tensorflow-addons=0.10.0
+    name: tf
+    channels:
+      - conda
+      - conda-forge
+    dependencies:
+      - python==3.6
+      - pip>=10.0
+      - tensorflow-gpu==2.2.0
+      -pip:
+        -tensorflow-addons=0.10.0
 
 Now do:
 

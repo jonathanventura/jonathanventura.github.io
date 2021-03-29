@@ -73,6 +73,8 @@ Now do:
     
 to create the environment using the environment.yml file that you created.
 
+You can also simply do "conda install" or "pip install" to install dependencies inside the conda environment.  (Do "conda install pip" first to use pip.)
+
 To select which GPU to use, you can do:
 
     export CUDA_VISIBLE_DEVICES=<0,1,2, or 3>

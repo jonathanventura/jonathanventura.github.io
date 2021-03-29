@@ -111,4 +111,4 @@ to check GPU availability.
 
 ### tmux ###
       
-You can run Docker sessions inside of “tmux”.  Use ctl-b ctl-d to leave tmux and “tmux attach” to get back into it.  You can finds lots other [keyboard commands for tmux](https://gist.github.com/MohamedAlaa/2961058).
+You should run your sessions inside of “tmux” to avoid SSH timeout and be able to return to sessions after disconnecting.  Start a session with "tmux", use ctl-b ctl-d to leave tmux and “tmux attach” to get back into it.  You can finds lots other [keyboard commands for tmux](https://gist.github.com/MohamedAlaa/2961058).

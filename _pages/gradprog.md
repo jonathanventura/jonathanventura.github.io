@@ -25,3 +25,4 @@ author_profile: false
 
 * What can I do to increase my chances of acceptance to the blended program?
 
+* What can I do to ensure that I finish the program on-time?

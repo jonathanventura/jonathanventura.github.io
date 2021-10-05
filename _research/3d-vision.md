@@ -13,3 +13,15 @@ These types of 3D computer vision problems have great relevance to many interest
 * Unsupervised learning of 3D reconstruction from panoramic video
 
 Sponsor: National Science Foundation
+
+Recent projects:
+
+[PanoSynthVR: View Synthesis from a Single Input Panorama with Multi-Cylinder Images](https://jonathanventura.github.io/PanoSynthVR/)
+
+[View Synthesis In Casually Captured Scenes Using a Cylindrical Neural Radiance Field With Exposure Compensation](https://wkhademi.github.io/CylindricalNeRF/)
+
+[Unsupervised Learning of Depth and Ego-Motion from Cylindrical Panoramic Video](https://jonathanventura.github.io/publication/sharma-aivr19)
+
+[CasualStereo: Casual Capture of Stereo Panoramas with Spherical Structure-from-Motion](https://jonathanventura.github.io/spherical-sfm/)
+
+

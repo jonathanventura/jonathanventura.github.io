@@ -114,3 +114,8 @@ to check GPU availability.
 ### tmux ###
       
 You should run your sessions inside of “tmux” to avoid SSH timeout and be able to return to sessions after disconnecting.  Start a session with "tmux", use ctl-b ctl-d to leave tmux and “tmux attach” to get back into it.  You can finds lots other [keyboard commands for tmux](https://gist.github.com/MohamedAlaa/2961058).
+    
+### Uploading and downloading files ###
+    
+I like to use [Cyberduck](https://cyberduck.io/) to connect to the server via SFTP and download or upload files. 
+    

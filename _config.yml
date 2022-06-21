@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jonathan Ventura"
 title_separator          : "-"
 name                     : &name "Jonathan Ventura"
-description              : &description "Website for Jonathan Ventura, assistant professor at Cal Poly SLO"
+description              : &description "Website for Jonathan Ventura, associate professor at Cal Poly SLO"
 url                      : https://jonathanventura.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jonathanventura/jonathanventura.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Jonathan Ventura"
   avatar           : "jventura_small.jpg"
-  bio              : "Asst. Prof. of Computer Science @ Cal Poly SLO.  Computer vision, augmented/virtual reality, and machine learning."
+  bio              : "Assoc. Prof. of Computer Science @ Cal Poly SLO.  Computer vision, augmented/virtual reality, and machine learning."
   location         : "San Luis Obispo, CA"
   employer         :
   pubmed           : 

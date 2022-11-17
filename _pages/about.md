@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an assistant professor in the Department of Computer Science and Software Engineering at Cal Poly, San Luis Obispo. My research focus is computer vision: making computers “see.” I am especially interested in using computer vision to understand the 3D world around the camera, with applications in augmented and virtual reality. I also love applying the "magic" of deep learning to interesting image processing problems in the sciences, such as geography and biology.
+My research focus is computer vision: making computers “see.” I am especially interested in using computer vision to understand the 3D world around the camera, with applications in augmented and virtual reality. I also love working with scientists from other fields to tackle interesting image processing problems involving biological and ecological data.
 
 Short bio:
 ===

@@ -18,5 +18,6 @@ Dr. Ventura is a native of the central coast of California and earned his Ph.D. 
 Prospective Students:
 ===
 
-I advise undergraduate and graduate research projects in computer vision, machine learning, and virtual and augmented reality. If you are interested, please contact me via email or come by my office.
+I advise undergraduate and graduate (M.S.) research projects in computer vision, machine learning, and virtual and augmented reality. If you are interested, please contact me via email or come by my office.
 
+Please note that Cal Poly does not offer a Ph.D. in Computer Science, but we do offer [an M.S. in Computer Science](https://csc.calpoly.edu/gr/).

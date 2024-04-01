@@ -25,7 +25,7 @@ Please note that Cal Poly does not offer a Ph.D. in Computer Science, but we do 
 Spring 2024 Office Hours:
 ===
 - Monday 10-12
-- Tuesday 9-11
+- Tuesday 10-11 and 3-4
 - Wednesday 10:30-12:30
 
 Office: 14-235C

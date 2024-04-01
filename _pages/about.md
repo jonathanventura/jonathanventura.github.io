@@ -20,6 +20,12 @@ Prospective Students:
 
 I advise undergraduate and graduate (M.S.) research projects in computer vision, machine learning, and virtual and augmented reality. If you are interested, please contact me via email or come by my office.
 
-*Please note I am on leave until Fall 2023 and can't take on new students until then.*
-
 Please note that Cal Poly does not offer a Ph.D. in Computer Science, but we do offer [an M.S. in Computer Science](https://csc.calpoly.edu/gr/).
+
+Spring 2024 Office Hours:
+===
+- Monday 10-12
+- Tuesday 9-11
+- Wednesday 10:30-12:30
+ 
+Office: 14-235C

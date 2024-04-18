@@ -15,6 +15,12 @@ The lab has two multi-GPU servers on campus dedicated to research use: El Capita
 
 You can log in with your Cal Poly credentials.  You need to be on the [Cal Poly VPN](https://cpvpn.calpoly.edu) if you are off campus.
 
+To avoid having to type in your password, you can set up SSH keys. 
+
+On your laptop, see if you already have a public key at ```~/.ssh/id_rsa.pub```.  If not, create it with ```ssh-keygen -t rsa``` and accept all the defaults.
+
+Now copy the file ```~/.ssh/id_rsa.pub``` to the same location on the server.  Set the permissions to 700 (do ```chmod 700 .ssh/id_rsa.pub```.  You should now be able to SSH to the server without entering your password.
+
 ### Storage ###
 
 You will want to work on the local storage rather than your home directory which is network storage.  Each user has a directory at

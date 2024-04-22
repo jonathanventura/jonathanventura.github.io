@@ -26,6 +26,6 @@ Spring 2024 Office Hours:
 ===
 - Monday 10-12
 - Tuesday 10-11 and 3-4
-- Wednesday 10:30-12:30
+- Wednesday 11:30-11:30
 
 Office: 14-235C

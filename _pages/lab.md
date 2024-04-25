@@ -19,7 +19,7 @@ To avoid having to type in your password, you can set up SSH keys.
 
 On your laptop, see if you already have a public key at ```~/.ssh/id_rsa.pub```.  If not, create it with ```ssh-keygen -t rsa``` and accept all the defaults.
 
-Copy the contents of ```~/.ssh/id_rsa.pub``` to ``~/.ssh/authorized_keys``` on the server.
+Copy the contents of ```~/.ssh/id_rsa.pub``` to ```~/.ssh/authorized_keys``` on the server.
 
 You should now be able to SSH to the server without entering your password.
 

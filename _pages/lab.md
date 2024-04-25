@@ -25,7 +25,7 @@ You should now be able to SSH to the server without entering your password.
 
 ### Storage ###
 
-Your home directory under ```/home/<username``` has a small disk quota.  You will want to work on the local storage rather than your home directory.  Each user has a directory at
+Your home directory under ```/home/<username>``` has a small disk quota.  You will want to work on the local storage rather than your home directory.  Each user has a directory at
 
     /data/<username>
   

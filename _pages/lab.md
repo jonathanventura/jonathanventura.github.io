@@ -19,11 +19,13 @@ To avoid having to type in your password, you can set up SSH keys.
 
 On your laptop, see if you already have a public key at ```~/.ssh/id_rsa.pub```.  If not, create it with ```ssh-keygen -t rsa``` and accept all the defaults.
 
-Now copy the file ```~/.ssh/id_rsa.pub``` to the same location on the server.  Set the permissions to 700 (do ```chmod 700 .ssh/id_rsa.pub```.  You should now be able to SSH to the server without entering your password.
+Copy the contents of ```~/.ssh/id_rsa.pub``` to ``~/.ssh/authorized_keys``` on the server.
+
+You should now be able to SSH to the server without entering your password.
 
 ### Storage ###
 
-You will want to work on the local storage rather than your home directory which is network storage.  Each user has a directory at
+Your home directory under ```/home/<username``` has a small disk quota.  You will want to work on the local storage rather than your home directory.  Each user has a directory at
 
     /data/<username>
   
@@ -34,19 +36,27 @@ Datasets can be stored under
 or
 
     /data3
-    
-    
+
+### VS Code and Jupyter Notebooks ###
+
+You can connect to the server using VS Code through the "Remote - SSH" extension.  Please disable the "Typescript and Javascript Language Services" extension before connecting:
+
+- Navigate to "Extensions" (click the building blocks button in the left toolbar)
+- Search for ```@builtin TypeScript```
+- Disable the "Typescript and Javascript Language Services" extension
+
+You can run Jupyter Notebooks through VS code.  Running your own a notebook server is complicated and not recommended.
+
 ### Conda ###
 
-We are moving towards using Anaconda instead of Docker to manage Python configurations.
-
-You first need to install Miniconda.  Run:
+It is usually best to manage your Python environments using conda.  To install conda, run:
 
     /data/install_conda.sh
     
 Then, after exiting out and reconnecting, run:
 
     conda update -y conda
+
 
 #### Creating Conda environments ####
 

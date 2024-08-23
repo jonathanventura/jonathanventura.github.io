@@ -7,15 +7,13 @@ author_profile: false
 
 {% include base_path %}
 
-# Lab Information #
-
 El Capitan is our on-campus Linux server with four NVidia V100 GPUs (32 GB RAM each) dedicated to research use.  
 
 Half Dome is our Windows workstation with two Nvidia RTX 3090 GPUs and a Meta Quest 2 headset.  This workstation is ideal for running ArcGIS Pro and virtual reality experiments.
 
 ## Frequently Asked Questions ##
 
-Here answers to frequently asked questions about working on the El Capitan server.
+Here are answers to frequently asked questions about working on the El Capitan server.
 
 ### How do I log in? ###
 

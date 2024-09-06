@@ -22,12 +22,13 @@ Recent projects:
 
 [P1AC: Revisiting Absolute Pose from a Single Affine Correspondence (ICCV 2023)](https://github.com/jonathanventura/P1AC)
 
-[PanoSynthVR: View Synthesis from a Single Input Panorama with Multi-Cylinder Images](https://jonathanventura.github.io/PanoSynthVR/)
+[PanoSynthVR: View Synthesis from a Single Input Panorama with Multi-Cylinder Images (ISMAR 2022)](https://jonathanventura.github.io/PanoSynthVR/)
 
-[View Synthesis In Casually Captured Scenes Using a Cylindrical Neural Radiance Field With Exposure Compensation](https://wkhademi.github.io/CylindricalNeRF/)
+[View Synthesis In Casually Captured Scenes Using a Cylindrical Neural Radiance Field With Exposure Compensation (SIGGRAPH 2021 Posters)](https://wkhademi.github.io/CylindricalNeRF/)
 
-[Unsupervised Learning of Depth and Ego-Motion from Cylindrical Panoramic Video](https://jonathanventura.github.io/publication/sharma-aivr19)
+[CasualStereo: Casual Capture of Stereo Panoramas with Spherical Structure-from-Motion (VR 2020)](https://jonathanventura.github.io/spherical-sfm/)
 
-[CasualStereo: Casual Capture of Stereo Panoramas with Spherical Structure-from-Motion](https://jonathanventura.github.io/spherical-sfm/)
+[Unsupervised Learning of Depth and Ego-Motion from Cylindrical Panoramic Video (AIVR 2019)](https://jonathanventura.github.io/publication/sharma-aivr19)
+
 
 

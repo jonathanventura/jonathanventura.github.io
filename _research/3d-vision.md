@@ -16,6 +16,12 @@ Sponsor: National Science Foundation
 
 Recent projects:
 
+[3D Pano Inpainting: Building a VR Environment from a Single Input Panorama (VR 2023 Poster)[https://jonathanventura.github.io/3d-pano-inpainting/]
+
+[Absolute Pose From One or Two Scaled and Oriented Features (CVPR 2024)[https://github.com/danini/absolute-pose-from-oriented-and-scaled-features]
+
+[P1AC: Revisiting Absolute Pose from a Single Affine Correspondence (ICCV 2023)](https://github.com/jonathanventura/P1AC)
+
 [PanoSynthVR: View Synthesis from a Single Input Panorama with Multi-Cylinder Images](https://jonathanventura.github.io/PanoSynthVR/)
 
 [View Synthesis In Casually Captured Scenes Using a Cylindrical Neural Radiance Field With Exposure Compensation](https://wkhademi.github.io/CylindricalNeRF/)

@@ -22,10 +22,10 @@ I advise undergraduate and graduate (M.S.) research projects in computer vision,
 
 Please note that Cal Poly does not offer a Ph.D. in Computer Science, but we do offer [an M.S. in Computer Science](https://csc.calpoly.edu/gr/).
 
-Spring 2024 Office Hours:
+Fall 2024 Office Hours:
 ===
-- Monday 10-12
-- Tuesday 10-11 and 3-4
-- Wednesday 11:30-1:30
+- Tuesday 3-4
+- Thursday 10-11
+- Friday 1-2
 
 Office: 14-235C

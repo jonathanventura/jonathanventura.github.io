@@ -26,17 +26,11 @@ To avoid having to type in your password, you can set up SSH keys:
 
 You should now be able to SSH to the server without entering your password.
 
-### I am out of disk quota, what do I do? ###
+### Where should I store my files? ###
 
-Your home directory under ```/home/<username>``` is on a shared network drive and has a small disk quota.  You shouldn't store your code or data in your home directory.
+You won't have access to your network home directory on El Capitan, as you would on other Cal Poly servers.  Instead, your home directory ```/home/<username>``` is on a local 1 TB drive.
 
-Instead, you should use the internal drives on El Capitan: ``/code`` and ``/data``.  We also have a network drive ``/data2``.
-
-Each user has a directory at
-
-    /code/<username>
-
-where you can put your code, Github repository clones, etc.  If you need to download a dataset or create large files, put them in ``/data2``.  ``/data`` is currently near capacity and I plan to eventually replace it with a larger SSD where we can store datasets.
+El Capitan also has two internal 8TB drives: ``/code`` (for code) and ``/files`` (for datasets and large files).   Since /home has limited storage, you should store the majority of your code under /code/<username> and data on /files.
 
 ### How do I run a Juptyer notebook? ###
 
@@ -52,17 +46,40 @@ You can connect to the server using VS Code through the "Remote - SSH" extension
 
 ### How do I install Python packages? ###
 
-Don't use the system python.  Instead, install miniconda and create conda environments.
+You can't install packages to the system Python, since that requires sudo access.  Instead, you will need to use some kind of virtual environment.
 
-To install conda, run this script:
+VS Code can help you manage either Python virtual environments or conda environments.  Python virtual environments will work without needing to install anything extra.  I recommend first trying Python virtual environments.
 
-    sh /code/install_conda.sh
+#### Python virtual environments ####
+
+I think VS Code is the easiest way to handle virtual environments.  You can create a separate virtual environment for each project (workspace).  
+
+To create a virtual environment through the command line:
+
+    cd <project directory>
+    python3 -m venv .venv
+
+To activate the virtual environemt:
+
+    source .venv/bin/activate
+
+To deactivate the virtual environment:
+
+    deactivate
     
+#### Conda ####
+
+Conda is a bit more powerful than venv since it can install things other than Python modules, such as specific CUDA library versions, etc.  If you need to use conda, do the following:
+
+    curl -LO http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+    bash Miniconda3-latest-Linux-x86_64.sh
+    rm Miniconda3-latest-Linux-x86_64.sh
+
 Then, after exiting out and reconnecting, run:
 
     conda update -y conda
 
-VS Code should detect your conda environments so that you can select the appropriate Python kernel when running code.
+VS Code should automatically detect your conda environments so that you can select the appropriate Python kernel when running code.
 
 ### My program stops running when I disconnect from SSH -- how can I run a long process? ###
      
@@ -86,7 +103,7 @@ to check GPU availability.  Then, to select a particular GPU to use:
 
 ### What if I can't correctly set up my environment in conda?  How do I compile C++ programs? Can you please install a specific program or CUDA version?  ###
 
-In cases where you need specific versions of drivers, libraries, etc. installed or you need to compile C++, use Docker so that you can manage the system environment yourself.  You need to be added to the docker group in order to use docker -- ask me about it and I will help you determine if Docker is actually necessary.
+In cases where you need specific versions of drivers, libraries, etc. installed or you need to compile C++, you might need to use Docker so that you can manage the system environment yourself.  You need to be added to the docker group in order to use docker -- ask me about it and I will help you determine if Docker is actually necessary.
 
 To use Docker, you need to create a Dockerfile and store it in a sub-directory.   For example, create a text file at "docker/Dockerfile."  Here is an example Dockerfile for Tensorflow:
       

@@ -30,7 +30,7 @@ You should now be able to SSH to the server without entering your password.
 
 You won't have access to your network home directory on El Capitan, as you would on other Cal Poly servers.  Instead, your home directory ```/home/<username>``` is on a local 1 TB drive.
 
-El Capitan also has two internal 8TB drives: ``/code`` (for code) and ``/files`` (for datasets and large files).   Since /home has limited storage, you should store the majority of your code under /code/<username> and data on /files.
+El Capitan also has two internal 8TB drives: ``/code`` (for code) and ``/files`` (for datasets and large files).   Since ```/home``` has limited storage, you should store the majority of your code under ```/code/<username>``` and data on ```/files```.
 
 ### How do I run a Juptyer notebook? ###
 

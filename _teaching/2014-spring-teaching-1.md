@@ -4,7 +4,6 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/cpe-428-computer-vision
 venue: "Cal Poly"
-date: 2014-01-01
 location: "City, Country"
 ---
 

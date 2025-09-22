@@ -32,8 +32,7 @@ Teaching:
 
 Office Hours:
 
-- Tuesday 10-11
-- Thursday 10-11
-- Friday 12-1
+- Monday / Friday 12-1
+- Tuesday / Thursday 10-11
 
 Office: 14-235C

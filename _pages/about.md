@@ -21,7 +21,7 @@ Latest projects:
 - [Uncalibrated structure from motion on a sphere](https://jonathanventura.github.io/spherical-sfm/pages/iccv2025/) (ICCV 2025)
 - [Individual tree detection in large-scale urban environments using high-resolution multispectral imagery](https://jventu09.users.earthengine.app/view/urban-tree-detector) (JAG 2024)
 - [3D Pano Inpainting: Building a VR environment from a single input panorama](https://jonathanventura.github.io/3d-pano-inpainting/) (VR 2024)
-- [Absolute Pose From One or Two Scaled and Oriented Features](https://github.com/danini/absolute-pose-from-oriented-and-scaled-features) (CVPR 2024)
+- [Absolute pose from one or two scaled and oriented features](https://github.com/danini/absolute-pose-from-oriented-and-scaled-features) (CVPR 2024)
 
 Prospective Students:
 ===

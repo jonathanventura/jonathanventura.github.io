@@ -15,6 +15,14 @@ Short bio:
 
 Dr. Ventura is a native of the central coast of California and earned his Ph.D. in Computer Science from the University of California, Santa Barbara in 2012. He received his B.S. and M.S. degrees in Computer Science from UCSB, as well. Before joining Cal Poly, he was an assistant professor at University of Colorado Colorado Springs. He has also been a postdoctoral researcher with the Institute for Computer Graphics and Vision at Graz University of Technology in Austria, in collaboration with Qualcomm Research, and worked as a research intern at the Adobe Advanced Technologies Lab in San Jose, CA. He has presented his work at several top international conferences and journals, including IEEE CVPR, ICCV, ECCV, ACM SIGGRAPH, IEEE ISMAR, and IEEE Transactions on Visualization and Computer Graphics. Joint work with his colleagues has twice been awarded the best paper prize from IEEE ISMAR, the premier international augmented reality conference.  His work has been supported by the National Science Foundation and the National Institutes of Health, including an NSF CRII award and an NSF CAREER award.
 
+Latest projects:
+===
+
+- [Uncalibrated structure from motion on a sphere](https://jonathanventura.github.io/spherical-sfm/pages/iccv2025/) (ICCV 2025)
+- [Individual tree detection in large-scale urban environments using high-resolution multispectral imagery](https://jventu09.users.earthengine.app/view/urban-tree-detector) (JAG 2024)
+- [3D Pano Inpainting: Building a VR environment from a single input panorama](https://jonathanventura.github.io/3d-pano-inpainting/) (VR 2024)
+- [Absolute Pose From One or Two Scaled and Oriented Features](https://github.com/danini/absolute-pose-from-oriented-and-scaled-features) (CVPR 2024)
+
 Prospective Students:
 ===
 

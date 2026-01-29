@@ -39,7 +39,7 @@ Teaching:
 
 Office Hours:
 
-- Tuesday 10-11 and 12-1 (in-person)
+- Tuesday 9-11 and 12-1 (in-person)
 - Thursday 10-11 (online)
 
 Office: 14-235C

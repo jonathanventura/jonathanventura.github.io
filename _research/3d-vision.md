@@ -4,13 +4,7 @@ excerpt: "New methods for 3D modeling and ego-motion estimation from images and 
 collection: research
 ---
 
-3D computer vision involves teaching the computer to understand the three-dimensional world around it.  Because images are only two-dimensional projections of the three-dimensional world, the computer must use intelligent strategies to infer the missing third dimension in an image.  Similarly, video captured from a moving camera gives clues about the trajectory of the camera, but some form of intelligence is needed to infer the motion from the video alone.
-
-These types of 3D computer vision problems have great relevance to many interesting applications such as robotics, augmented reality, and virtual reality.
-
-Sponsor: National Science Foundation
-
-Recent projects:
+Sponsors: National Science Foundation
 
 ## 3D reconstruction
 
@@ -57,15 +51,36 @@ Keypoints used for image matching often include an estimate of the feature scale
 
 ### P1AC: Revisiting Absolute Pose from a Single Affine Correspondence
 
+Affine correspondences have traditionally been used to improve feature matching over wide baselines. While recent work has successfully used affine correspondences to solve various relative camera pose estimation problems, less attention has been given to their use in absolute pose estimation. We introduce the first general solution to the problem of estimating the pose of a calibrated camera given a single observation of an oriented point and an affine correspondence. The advantage of our approach (P1AC) is that it requires only a single correspondence, in comparison to the traditional point-based approach (P3P), significantly reducing the combinatorics in robust estimation. P1AC provides a general solution that removes restrictive assumptions made in prior work and is applicable to large-scale image-based localization. We propose a minimal solution to the P1AC problem and evaluate our novel solver on synthetic data, showing its numerical stability and performance under various types of noise. On standard image-based localization benchmarks we show that P1AC achieves more accurate results than the widely used P3P algorithm.
+
 📕 [Paper (ICCV 2023)](https://openaccess.thecvf.com/content/ICCV2023/papers/Ventura_P1AC_Revisiting_Absolute_Pose_From_a_Single_Affine_Correspondence_ICCV_2023_paper.pdf) and [Supplemental Material](https://openaccess.thecvf.com/content/ICCV2023/supplemental/Ventura_P1AC_Revisiting_Absolute_ICCV_2023_supplemental.pdf)
 📘 [ArXiv version](http://arxiv.org/abs/2011.08790)
 💻 [Code](https://github.com/jonathanventura/P1AC)
 
 ## View synthesis
 
-[3D Pano Inpainting: Building a VR Environment from a Single Input Panorama (VR 2023 Poster)](https://jonathanventura.github.io/3d-pano-inpainting/)
+### 3D Pano Inpainting: Building a VR Environment from a Single Input Panorama
 
-[PanoSynthVR: View Synthesis from a Single Input Panorama with Multi-Cylinder Images (ISMAR 2022)](https://jonathanventura.github.io/PanoSynthVR/)
+Creating 360-degree 3D content is challenging because it requires either a multi-camera rig or a collection of many images taken from different perspectives. Our approach aims to generate a 360-degree VR scene from a single panoramic image using a learning-based inpainting method adapted for panoramic content. We introduce a pipeline capable of transforming an equirectangular panoramic RGB image into a complete 360-degree 3D virtual reality scene represented as a textured mesh, which is easily rendered on a VR headset using standard graphics rendering pipelines. We qualitatively evaluate our results on a synthetic dataset consisting of 360 panoramas in indoor scenes.
 
-[View Synthesis In Casually Captured Scenes Using a Cylindrical Neural Radiance Field With Exposure Compensation (SIGGRAPH 2021 Posters)](https://wkhademi.github.io/CylindricalNeRF/)
+📶 [Poster abstract (IEEE VR 2024)](https://jonathanventura.github.io/3d-pano-inpainting/)
+📷 [Project page](https://jonathanventura.github.io/3d-pano-inpainting/)
+💻 [Code](https://github.com/jonathanventura/3d-pano-inpainting)
+
+### PanoSynthVR: View Synthesis from a Single Input Panorama with Multi-Cylinder Images
+
+We investigate how real-time, 360◦view synthesis can be achieved on current virtual reality hardware from a single panoramic image input. We introduce a light-weight method to automatically convert a single panoramic input into a multi-cylinder image representation that supports real-time, free-viewpoint view synthesis rendering for virtual reality. We apply an existing convolutional neural network trained on pinhole images to a cylindrical panorama with wrap
+padding to ensure agreement between the left and right edges. The network outputs a stack of semi-transparent panoramas at varying depths which can be easily rendered and composited with over blending. Quantitative experiments and a user study show that the method produces convincing parallax and fewer artifacts than a textured mesh representation.
+
+📕 [Paper (IEEE ISMAR 2022)](https://ieeexplore.ieee.org/document/9995104)
+📶 [Poster abstract (ACM SIGGRAPH 2021)[https://dl.acm.org/doi/10.1145/3450618.3469144]
+📷 [Project page](https://jonathanventura.github.io/PanoSynthVR/)
+💻 [Code](https://github.com/jonathanventura/PanoSynthVR)
+
+### View Synthesis In Casually Captured Scenes Using a Cylindrical Neural Radiance Field With Exposure Compensation
+
+We extend Neural Radiance Fields (NeRF) with a cylindrical parameterization that enables rendering photorealistic novel views of 360-degree outward facing scenes. We further introduce a learned exposure compensation parameter to account for the varying exposure in training images that may occur from casually capturing a scene. We evaluate our method on a variety of 360-degree casually captured scenes.
+
+📶 [Poster abstract (ACM SIGGRAPH 2021)](https://dl.acm.org/doi/10.1145/3450618.3469147)
+📷 [Project page](https://wkhademi.github.io/CylindricalNeRF/)
 

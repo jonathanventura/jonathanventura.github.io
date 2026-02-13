@@ -22,13 +22,14 @@ Spherical motion is a special case of camera motion where the camera moves on th
 :signal_strength: [Poster](https://iccv.thecvf.com/media/PosterPDFs/ICCV%202025/741.png?t=1760388423.711583)
 :camera: [Project page](https://jonathanventura.github.io/spherical-sfm/pages/iccv2025/)
 :computer: [Code](https://jonathanventura.github.io/spherical-sfm/)
+:floppy_disk: [Dataset](https://osf.io/tjc3x/)
 
 ### CasualStereo: Casual Capture of Stereo Panoramas with Spherical Structure-from-Motion
 
 Hand-held capture of stereo panoramas involves spinning the camera in a roughly circular path to acquire a dense set of views of the scene. However, most existing structure-from-motion pipelines fail when trying to reconstruct such trajectories, due to the small baseline between frames. In this work, we evaluate the use of spherical structure-from-motion for reconstructing handheld stereo panorama captures. The spherical motion constraint introduces a strong regularization on the structure-from-motion process which mitigates the small-baseline problem, making it well-suited to the use case of stereo panorama capture with a handheld camera. We demonstrate the effectiveness of spherical structure-from-motion for casual capture of high-resolution stereo panoramas and validate our results with a user study.
 
 :closed_book: [Paper (IEEE VR 2020)](https://ieeexplore.ieee.org/document/9089526)
-:computer [Code](https://jonathanventura.github.io/spherical-sfm/)
+:computer: [Code](https://jonathanventura.github.io/spherical-sfm/)
 
 ### Unsupervised Learning of Depth and Ego-Motion from Cylindrical Panoramic Video
 
@@ -36,6 +37,12 @@ We introduce a convolutional neural network model for unsupervised learning of d
 
 :closed_book: [Paper (IEEE AIVR 2019)](https://ieeexplore.ieee.org/abstract/document/8942315)
 :camera: [Project page](https://jonathanventura.github.io/publication/sharma-aivr19)
+
+### Structure from Motion on a Sphere
+
+:closed_book: [Paper (ECCV 2016)](https://link.springer.com/chapter/10.1007/978-3-319-46487-9_4)
+:blue_book: [ArXiv version](https://arxiv.org/abs/1604.00409)
+:computer: [Code](https://jonathanventura.github.io/spherical-sfm/)
 
 ## Camera localization and tracking
 

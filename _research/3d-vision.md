@@ -14,9 +14,28 @@ Recent projects:
 
 ## 3D reconstruction
 
-[CasualStereo: Casual Capture of Stereo Panoramas with Spherical Structure-from-Motion (VR 2020)](https://jonathanventura.github.io/spherical-sfm/)
+### Uncalibrated Structure From Motion on a Sphere
 
-[Unsupervised Learning of Depth and Ego-Motion from Cylindrical Panoramic Video (AIVR 2019)](https://jonathanventura.github.io/publication/sharma-aivr19)
+Spherical motion is a special case of camera motion where the camera moves on the imaginary surface of a sphere with the optical axis normal to the surface. Common sources of spherical motion are a person capturing a stereo panorama with a phone held in an outstretched hand, or a hemi- spherical camera rig used for multi-view scene capture. However, traditional structure-from-motion pipelines tend to fail on spherical camera motion sequences, especially when the camera is facing outward. Building upon prior work addressing the calibrated case, we explore uncalibrated reconstruction from spherical motion, assuming a fixed but unknown focal length parameter. We show that, although two-view spherical motion is always a critical case, self-calibration is possible from three or more views. Through analysis of the relationship between focal length and spherical relative pose, we devise a global structure- from-motion approach for uncalibrated reconstruction. We demonstrate the effectiveness of our approach on real-world captures in various settings, even when the camera motion deviates from perfect spherical motion.
+
+:closed_book: [Paper (ICCV 2025)](https://openaccess.thecvf.com/content/ICCV2025/papers/Ventura_Uncalibrated_Structure_from_Motion_on_a_Sphere_ICCV_2025_paper.pdf) and [Supplemental Material](https://openaccess.thecvf.com/content/ICCV2025/supplemental/Ventura_Uncalibrated_Structure_from_ICCV_2025_supplemental.zip)
+:signal_strength: [Poster](https://iccv.thecvf.com/media/PosterPDFs/ICCV%202025/741.png?t=1760388423.711583)
+:camera: [Project page](https://jonathanventura.github.io/spherical-sfm/pages/iccv2025/)
+:computer: [Code](https://jonathanventura.github.io/spherical-sfm/)
+
+### CasualStereo: Casual Capture of Stereo Panoramas with Spherical Structure-from-Motion
+
+Hand-held capture of stereo panoramas involves spinning the camera in a roughly circular path to acquire a dense set of views of the scene. However, most existing structure-from-motion pipelines fail when trying to reconstruct such trajectories, due to the small baseline between frames. In this work, we evaluate the use of spherical structure-from-motion for reconstructing handheld stereo panorama captures. The spherical motion constraint introduces a strong regularization on the structure-from-motion process which mitigates the small-baseline problem, making it well-suited to the use case of stereo panorama capture with a handheld camera. We demonstrate the effectiveness of spherical structure-from-motion for casual capture of high-resolution stereo panoramas and validate our results with a user study.
+
+:closed_book: [Paper (IEEE VR 2020)](https://ieeexplore.ieee.org/document/9089526)
+:computer [Code](https://jonathanventura.github.io/spherical-sfm/)
+
+### Unsupervised Learning of Depth and Ego-Motion from Cylindrical Panoramic Video
+
+We introduce a convolutional neural network model for unsupervised learning of depth and ego-motion from cylindrical panoramic video. Panoramic depth estimation is an important technology for applications such as virtual reality, 3d modeling, and autonomous robotic navigation. In contrast to previous approaches for applying convolutional neural networks to panoramic imagery, we use the cylindrical panoramic projection which allows for the use of the traditional CNN layers such as convolutional filters and max pooling without modification. Our evaluation of synthetic and real data shows that unsupervised learning of depth and ego-motion on cylindrical panoramic images can produce high-quality depth maps and that an increased field-of-view improves ego-motion estimation accuracy. We also introduce Headcam, a novel dataset of panoramic video collected from a helmet-mounted camera while biking in an urban setting.
+
+:closed_book: [Paper (IEEE AIVR 2019)](https://ieeexplore.ieee.org/abstract/document/8942315)
+:camera: [Project page](https://jonathanventura.github.io/publication/sharma-aivr19)
 
 ## Camera localization and tracking
 

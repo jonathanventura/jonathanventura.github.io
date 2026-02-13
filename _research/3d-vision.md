@@ -40,6 +40,8 @@ We introduce a convolutional neural network model for unsupervised learning of d
 
 ### Structure from Motion on a Sphere
 
+We describe a special case of structure from motion where the camera rotates on a sphere. The camera’s optical axis lies perpendicular to the sphere’s surface. In this case, the camera’s pose is minimally represented by three rotation parameters. From analysis of the epipolar geometry we derive a novel and efficient solution for the essential matrix relating two images, requiring only three point correspondences in the minimal case. We apply this solver in a structure-from-motion pipeline that aggregates pairwise relations by rotation averaging followed by bundle adjustment with an inverse depth parameterization. Our methods enable scene modeling with an outward-facing camera and object scanning with an inward-facing camera.
+
 :closed_book: [Paper (ECCV 2016)](https://link.springer.com/chapter/10.1007/978-3-319-46487-9_4)
 :blue_book: [ArXiv version](https://arxiv.org/abs/1604.00409)
 :computer: [Code](https://jonathanventura.github.io/spherical-sfm/)

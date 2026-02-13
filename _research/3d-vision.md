@@ -6,29 +6,29 @@ collection: research
 
 3D computer vision involves teaching the computer to understand the three-dimensional world around it.  Because images are only two-dimensional projections of the three-dimensional world, the computer must use intelligent strategies to infer the missing third dimension in an image.  Similarly, video captured from a moving camera gives clues about the trajectory of the camera, but some form of intelligence is needed to infer the motion from the video alone.
 
-These types of 3D computer vision problems have great relevance to many interesting applications such as robotics, augmented reality, and virtual reality.  In my research I have focused on three main areas of 3D computer vision:
-
-* Fast solvers for ego-motion estimation
-* Camera localization and tracking in large areas
-* Unsupervised learning of 3D reconstruction from panoramic video
+These types of 3D computer vision problems have great relevance to many interesting applications such as robotics, augmented reality, and virtual reality.
 
 Sponsor: National Science Foundation
 
 Recent projects:
 
-[3D Pano Inpainting: Building a VR Environment from a Single Input Panorama (VR 2023 Poster)](https://jonathanventura.github.io/3d-pano-inpainting/)
-
-[Absolute Pose From One or Two Scaled and Oriented Features (CVPR 2024)](https://github.com/danini/absolute-pose-from-oriented-and-scaled-features)
-
-[P1AC: Revisiting Absolute Pose from a Single Affine Correspondence (ICCV 2023)](https://github.com/jonathanventura/P1AC)
-
-[PanoSynthVR: View Synthesis from a Single Input Panorama with Multi-Cylinder Images (ISMAR 2022)](https://jonathanventura.github.io/PanoSynthVR/)
-
-[View Synthesis In Casually Captured Scenes Using a Cylindrical Neural Radiance Field With Exposure Compensation (SIGGRAPH 2021 Posters)](https://wkhademi.github.io/CylindricalNeRF/)
+## 3D reconstruction
 
 [CasualStereo: Casual Capture of Stereo Panoramas with Spherical Structure-from-Motion (VR 2020)](https://jonathanventura.github.io/spherical-sfm/)
 
 [Unsupervised Learning of Depth and Ego-Motion from Cylindrical Panoramic Video (AIVR 2019)](https://jonathanventura.github.io/publication/sharma-aivr19)
 
+## Camera localization and tracking
 
+[Absolute Pose From One or Two Scaled and Oriented Features (CVPR 2024)](https://github.com/danini/absolute-pose-from-oriented-and-scaled-features)
+
+[P1AC: Revisiting Absolute Pose from a Single Affine Correspondence (ICCV 2023)](https://github.com/jonathanventura/P1AC)
+
+## View synthesis
+
+[3D Pano Inpainting: Building a VR Environment from a Single Input Panorama (VR 2023 Poster)](https://jonathanventura.github.io/3d-pano-inpainting/)
+
+[PanoSynthVR: View Synthesis from a Single Input Panorama with Multi-Cylinder Images (ISMAR 2022)](https://jonathanventura.github.io/PanoSynthVR/)
+
+[View Synthesis In Casually Captured Scenes Using a Cylindrical Neural Radiance Field With Exposure Compensation (SIGGRAPH 2021 Posters)](https://wkhademi.github.io/CylindricalNeRF/)
 

@@ -48,9 +48,18 @@ We describe a special case of structure from motion where the camera rotates on 
 
 ## Camera localization and tracking
 
-[Absolute Pose From One or Two Scaled and Oriented Features (CVPR 2024)](https://github.com/danini/absolute-pose-from-oriented-and-scaled-features)
+### Absolute Pose From One or Two Scaled and Oriented Features
 
-[P1AC: Revisiting Absolute Pose from a Single Affine Correspondence (ICCV 2023)](https://github.com/jonathanventura/P1AC)
+Keypoints used for image matching often include an estimate of the feature scale and orientation. While recent work has demonstrated the advantages of using feature scales and orientations for relative pose estimation, relatively little work has considered their use for absolute pose estimation. We introduce minimal solutions for absolute pose from two oriented feature correspondences in the general case, or one scaled and oriented correspondence given a known vertical direction. Nowadays, assuming a known direction is not particularly restrictive as modern consumer devices, such as smartphones or drones, are equipped with Inertial Measurement Units (IMU) that provide the gravity direction by default. Compared to traditional absolute pose methods requiring three point correspondences, our solvers need a smaller minimal sample, reducing the cost and complexity of robust estimation. Evaluations on large-scale and public real datasets demonstrate the advantage of our methods for fast and accurate localization in challenging conditions.
+
+:closed_book: [Paper (CVPR 2024)](https://openaccess.thecvf.com/content/CVPR2024/papers/Ventura_Absolute_Pose_from_One_or_Two_Scaled_and_Oriented_Features_CVPR_2024_paper.pdf) and [Supplemental Material](https://openaccess.thecvf.com/content/CVPR2024/supplemental/Ventura_Absolute_Pose_from_CVPR_2024_supplemental.pdf)
+:computer: [Code](https://github.com/danini/absolute-pose-from-oriented-and-scaled-features)
+
+### P1AC: Revisiting Absolute Pose from a Single Affine Correspondence
+
+:closed_book: [Paper (ICCV 2023)](https://openaccess.thecvf.com/content/ICCV2023/papers/Ventura_P1AC_Revisiting_Absolute_Pose_From_a_Single_Affine_Correspondence_ICCV_2023_paper.pdf) and [Supplemental Material](https://openaccess.thecvf.com/content/ICCV2023/supplemental/Ventura_P1AC_Revisiting_Absolute_ICCV_2023_supplemental.pdf)
+:blue_book: [ArXiv version](http://arxiv.org/abs/2011.08790)
+:computer: [Code](https://github.com/jonathanventura/P1AC)
 
 ## View synthesis
 

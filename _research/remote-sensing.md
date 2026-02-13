@@ -9,6 +9,8 @@ Sponsors: California Department of Forestry and Fire Protection, U.S. Forest Ser
 
 Recent projects:
 
+## Urban forest inventory
+
 ### An end-to-end deep learning solution for automated LiDAR tree detection in the urban environment
 
 Cataloging and classifying trees in the urban environment is a crucial step in urban and environmental planning; however, manual collection and maintenance of this data is expensive and time-consuming. Although algorithmic approaches that rely on remote sensing data have been developed for tree detection in forests, they generally struggle in the more varied urban environment. This work proposes a novel end-to-end deep learning method for the detection of trees in the urban environment from remote sensing data. Specifically, we develop and train a novel PointNet-based neural network architecture to predict tree locations directly from LiDAR data augmented with multi-spectral imagery. We compare this model to a number of high-performing baselines on a large and varied dataset in the Southern California region, and find that our method outperforms all baselines in terms of tree detection ability (75.5% F-score) and positional accuracy (2.28 meter root mean squared error), while being highly efficient. We then analyze and compare the sources of errors, and how these reveal the strengths and weaknesses of each approach. Our results highlight the importance of fusing spectral and structural information for remote sensing tasks in complex urban environments.
@@ -28,17 +30,13 @@ Systematic maps of urban forests are useful for regional planners and ecologists
 
 [Paper](https://www.sciencedirect.com/science/article/pii/S1569843224002024) | [Interactive Map](https://jventu09.users.earthengine.app/view/urban-tree-detector) | [Code](https://github.com/jonathanventura/urban-tree-detection) | [Dataset](https://github.com/jonathanventura/urban-tree-detection-data)
 
-### Application of Deep Learning for Classification of Intertidal Eelgrass from Drone-Acquired Imagery
-
-Shallow estuarine habitats are globally undergoing rapid changes due to climate change and anthropogenic influences, resulting in spatiotemporal shifts in distribution and habitat extent. Yet, scientists and managers do not always have rapidly available data to track habitat changes in real-time. In this study, we applied image segmentation techniques to two years of high-resolution drone-based imagery of eelgrass (Zostera marina) meadows in the Morro Bay estuary, which has undergone large eelgrass declines and the subsequent recovery of seagrass meadows in the last decade. The model accurately classified eelgrass across a range of conditions and sizes from meadow-scale to small-scale patches that are less than a meter in size. This study demonstrates the potential for machine learning methods to accurately support the active monitoring and analysis of seagrass dynamics.
-
-[Paper](https://www.mdpi.com/2072-4292/15/9/2321) |
-
 ### Diversity and structure in California’s urban forest: What over six million data points tell us about one of the world's largest urban forests
 
 Urban street trees provide many benefits to surrounding communities, but our ability to assess such benefits relies on the availability of high-quality urban tree data. While these data are numerous, they are not available in an easily accessible, centralized place. To fill this gap, we aggregated public and private data into a single, comprehensive inventory of urban trees in California called the California Urban Forest (CUF) Inventory. This aggregated inventory of one of the world's largest urban forests provides the data necessary to assess the structure, diversity, and value of California’s urban forests at multiple spatial scales.
 
 [Paper](https://www.sciencedirect.com/science/article/pii/S1618866722002229) | [Data Dashboard](https://lookerstudio.google.com/u/0/reporting/880d448d-de26-48d3-b563-0c6317e456e4/page/jWHKB)
+
+## Ecological monitoring
 
 ### A Convolutional Neural Network Classifier Identifies Tree Species in Mixed-Conifer Forest from Hyperspectral Imagery
 
@@ -46,3 +44,16 @@ In this study, we automate tree species classification and mapping using field-b
 
 [Paper](https://www.mdpi.com/2072-4292/11/19/2326) | [Code](https://github.com/jonathanventura/canopy)
 
+### Application of Deep Learning for Classification of Intertidal Eelgrass from Drone-Acquired Imagery
+
+Shallow estuarine habitats are globally undergoing rapid changes due to climate change and anthropogenic influences, resulting in spatiotemporal shifts in distribution and habitat extent. Yet, scientists and managers do not always have rapidly available data to track habitat changes in real-time. In this study, we applied image segmentation techniques to two years of high-resolution drone-based imagery of eelgrass (Zostera marina) meadows in the Morro Bay estuary, which has undergone large eelgrass declines and the subsequent recovery of seagrass meadows in the last decade. The model accurately classified eelgrass across a range of conditions and sizes from meadow-scale to small-scale patches that are less than a meter in size. This study demonstrates the potential for machine learning methods to accurately support the active monitoring and analysis of seagrass dynamics.
+
+[Paper](https://www.mdpi.com/2072-4292/15/9/2321) |
+
+## Tools for wildfire preparedness and response
+
+### DamageMap: A post-wildfire damaged buildings classifier
+
+The increasing frequency and severity of wildfire events in the last few decades has created an urgent need for new technologies that allow rapid surveying and assessment of post-wildfire building damage. However, existing technologies lack in accuracy and ability to scale to effectively aid disaster relief and recovery. Even today, most wildfire event inspectors need to physically visit the areas impacted by wildfires and manually classify building damage, which requires considerable time and resources. Here, we present DamageMap, an artificial intelligence-powered post-wildfire building damage classifier.  DamageMap may help governmental and non-governmental agencies rapidly survey building damage using post-wildfire aerial or satellite imagery in wildfire-impacted areas.
+
+[Paper](https://www.sciencedirect.com/science/article/pii/S221242092100501X) | [Interactive Map](https://kkraoj.users.earthengine.app/view/damagemap) | [Code](https://github.com/MariosGalanis/DamageMap)

@@ -40,5 +40,9 @@ Urban street trees provide many benefits to surrounding communities, but our abi
 
 [Paper](https://www.sciencedirect.com/science/article/pii/S1618866722002229) | [Data Dashboard](https://lookerstudio.google.com/u/0/reporting/880d448d-de26-48d3-b563-0c6317e456e4/page/jWHKB)
 
+### A Convolutional Neural Network Classifier Identifies Tree Species in Mixed-Conifer Forest from Hyperspectral Imagery
 
+In this study, we automate tree species classification and mapping using field-based training data, high spatial resolution airborne hyperspectral imagery, and a convolutional neural network classifier (CNN). We tested our methods by identifying seven dominant trees species as well as dead standing trees in a mixed-conifer forest in the Southern Sierra Nevada Mountains, CA (USA) using training, validation, and testing datasets composed of spatially-explicit transects and plots sampled across a single strip of imaging spectroscopy. By training a CNN classifier using field data and hyperspectral imagery, we were able to accurately identify tree species and predict their distribution, as well as the distribution of tree mortality, across the landscape. The hyperspectral CNN model captures the species composition changes across ~700 meters (1935 to 2630 m) of elevation from a lower-elevation mixed oak conifer forest to a higher-elevation fir-dominated coniferous forest. High resolution tree species maps can support forest ecosystem monitoring and management, and identifying dead trees aids landscape assessment of forest mortality resulting from drought, insects and pathogens. We publicly provide our code to apply deep learning classifiers to tree species identification from geospatial imagery and field training data.
+
+[Paper](https://www.mdpi.com/2072-4292/11/19/2326) | [Code](https://github.com/jonathanventura/canopy)
 

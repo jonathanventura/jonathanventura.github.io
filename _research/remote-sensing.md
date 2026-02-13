@@ -7,8 +7,6 @@ collection: research
 
 Sponsors: California Department of Forestry and Fire Protection, U.S. Forest Service
 
-Recent projects:
-
 ## Urban forest inventory
 
 ### An end-to-end deep learning solution for automated LiDAR tree detection in the urban environment

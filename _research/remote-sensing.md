@@ -9,11 +9,24 @@ Sponsors: California Department of Forestry and Fire Protection, U.S. Forest Ser
 
 Recent projects:
 
+### An end-to-end deep learning solution for automated LiDAR tree detection in the urban environment
+
+Cataloging and classifying trees in the urban environment is a crucial step in urban and environmental planning; however, manual collection and maintenance of this data is expensive and time-consuming. Although algorithmic approaches that rely on remote sensing data have been developed for tree detection in forests, they generally struggle in the more varied urban environment. This work proposes a novel end-to-end deep learning method for the detection of trees in the urban environment from remote sensing data. Specifically, we develop and train a novel PointNet-based neural network architecture to predict tree locations directly from LiDAR data augmented with multi-spectral imagery. We compare this model to a number of high-performing baselines on a large and varied dataset in the Southern California region, and find that our method outperforms all baselines in terms of tree detection ability (75.5% F-score) and positional accuracy (2.28 meter root mean squared error), while being highly efficient. We then analyze and compare the sources of errors, and how these reveal the strengths and weaknesses of each approach. Our results highlight the importance of fusing spectral and structural information for remote sensing tasks in complex urban environments.
+
+[Paper](https://www.sciencedirect.com/science/article/pii/S2667393225000110)
+
+### Harnessing Neural Networks for Broad-Scale Urban Canopy Cover Mapping: A Remote Sensing Approach in California
+
+The California Urban Forestry Act was passed to plan a 10% increase in tree canopy cover by 2035, prioritizing disadvantaged and low-canopy areas. To support this goal, we developed a model to predict urban canopy cover in California using National Agricultural Image Program (NAIP) aerial imagery from 2016-2022.
+Using open-source datasets available across the United States, our methods show how canopy cover can be quickly and accurately assessed. The canopy cover dataset we develop can be used to inform urban forest management by identifying places where canopy cover is low, and future tree planting should be prioritized. 
+
+[Abstract](https://ui.adsabs.harvard.edu/abs/2024AGUFMGC54A..06P/abstract)
+
 ### Individual tree detection in large-scale urban environments using high-resolution multispectral imagery
 
 Systematic maps of urban forests are useful for regional planners and ecologists to understand the spatial distribution of trees in cities. However, manually-created urban forest inventories are expensive and time-consuming to create and typically do not provide coverage of private land. Toward the goal of automating urban forest inventory through machine learning techniques, we performed a comparative study of methods for automatically detecting and localizing trees in multispectral aerial imagery of urban environments, and introduce a novel method based on convolutional neural network regression. Our evaluation is supported by a new dataset of over 1,500 images and almost 100,000 tree annotations, covering eight cities, six climate zones, and three image capture years. To demonstrate the scalability of the technique, we produced the first map of trees across the entire urban forest of California.
 
-[Paper](https://www.sciencedirect.com/science/article/pii/S1569843224002024) | [Interactive Map](https://jventu09.users.earthengine.app/view/urban-tree-detector)
+[Paper](https://www.sciencedirect.com/science/article/pii/S1569843224002024) | [Interactive Map](https://jventu09.users.earthengine.app/view/urban-tree-detector) | [Code](https://github.com/jonathanventura/urban-tree-detection) | [Dataset](https://github.com/jonathanventura/urban-tree-detection-data)
 
 ### Application of Deep Learning for Classification of Intertidal Eelgrass from Drone-Acquired Imagery
 

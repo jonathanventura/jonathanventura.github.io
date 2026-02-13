@@ -50,7 +50,7 @@ Shallow estuarine habitats are globally undergoing rapid changes due to climate 
 
 [Paper](https://www.mdpi.com/2072-4292/15/9/2321) |
 
-## Tools for wildfire preparedness and response
+## Wildfire preparedness and response
 
 ### DamageMap: A post-wildfire damaged buildings classifier
 

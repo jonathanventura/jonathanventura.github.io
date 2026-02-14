@@ -73,7 +73,7 @@ We investigate how real-time, 360◦view synthesis can be achieved on current vi
 padding to ensure agreement between the left and right edges. The network outputs a stack of semi-transparent panoramas at varying depths which can be easily rendered and composited with over blending. Quantitative experiments and a user study show that the method produces convincing parallax and fewer artifacts than a textured mesh representation.
 
 📕 [Paper (IEEE ISMAR 2022)](https://ieeexplore.ieee.org/document/9995104)
-📶 [Poster abstract (ACM SIGGRAPH 2021)[https://dl.acm.org/doi/10.1145/3450618.3469144]
+📶 [Poster abstract (ACM SIGGRAPH 2021)](https://dl.acm.org/doi/10.1145/3450618.3469144)
 📷 [Project page](https://jonathanventura.github.io/PanoSynthVR/)
 💻 [Code](https://github.com/jonathanventura/PanoSynthVR)
 

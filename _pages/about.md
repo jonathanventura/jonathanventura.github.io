@@ -30,12 +30,13 @@ I advise undergraduate and graduate (M.S.) research projects in computer vision,
 
 Please note that Cal Poly does not offer a Ph.D. in Computer Science, but we do offer [an M.S. in Computer Science](https://csc.calpoly.edu/gr/).
 
-Winter 2026 Schedule:
+Spring 2026 Schedule:
 ===
 
 Teaching:
 
-- CSC 487 Deep Learning: MWF 9-11 and 11-1
+- EE 428 Computer Vision: MWF 9-11
+- CSC 587 Advanced Deep Learning: MW 12-2
 
 Office Hours:
 

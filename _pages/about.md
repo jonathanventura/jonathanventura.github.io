@@ -13,7 +13,7 @@ My research focus is computer vision: making computers “see.” I am especiall
 Short bio:
 ===
 
-Dr. Ventura is a native of the central coast of California and earned his Ph.D. in Computer Science from the University of California, Santa Barbara in 2012. He received his B.S. and M.S. degrees in Computer Science from UCSB, as well. Before joining Cal Poly, he was an assistant professor at University of Colorado Colorado Springs. He has also been a postdoctoral researcher with the Institute for Computer Graphics and Vision at Graz University of Technology in Austria, in collaboration with Qualcomm Research, and worked as a research intern at the Adobe Advanced Technologies Lab in San Jose, CA. He has presented his work at several top international conferences and journals, including IEEE CVPR, ICCV, ECCV, ACM SIGGRAPH, IEEE ISMAR, and IEEE Transactions on Visualization and Computer Graphics. Joint work with his colleagues has twice been awarded the best paper prize from IEEE ISMAR, the premier international augmented reality conference.  His work has been supported by the National Science Foundation and the National Institutes of Health, including an NSF CRII award and an NSF CAREER award.
+Dr. Ventura is an associate professor in the Department of Computer Science & Software Engineering at California Polytechnic State University, San Luis Obispo.  He is a native of the central coast of California and earned his Ph.D. in Computer Science from the University of California, Santa Barbara in 2012. He received his B.S. and M.S. degrees in Computer Science from UCSB, as well. Before joining Cal Poly, he was an assistant professor at University of Colorado Colorado Springs. He has also been a postdoctoral researcher with the Institute for Computer Graphics and Vision at Graz University of Technology in Austria, in collaboration with Qualcomm Research, and worked as a research intern at the Adobe Advanced Technologies Lab in San Jose, CA. He has presented his work at several top international conferences and journals, including IEEE CVPR, ICCV, ECCV, ACM SIGGRAPH, IEEE ISMAR, and IEEE Transactions on Visualization and Computer Graphics. Joint work with his colleagues has twice been awarded the best paper prize from IEEE ISMAR, the premier international augmented reality conference.  His work has been supported by the National Science Foundation and the National Institutes of Health, including an NSF CRII award and an NSF CAREER award.
 
 Latest projects:
 ===
@@ -30,17 +30,18 @@ I advise undergraduate and graduate (M.S.) research projects in computer vision,
 
 Please note that Cal Poly does not offer a Ph.D. in Computer Science, but we do offer [an M.S. in Computer Science](https://csc.calpoly.edu/gr/).
 
-Spring 2026 Schedule:
+Fall 2026 Schedule:
 ===
 
 Teaching:
 
-- EE 428 Computer Vision: MWF 9-11
-- CSC 587 Advanced Deep Learning: MW 12-2
+- CSC 4888 Computer Vision: MWF 9-11
+- DATA 4620 Foundations and Applications of Deep Learning: MWF 1-3
 
 Office Hours:
 
-- Tuesday 9-11 and 12-1 (in-person)
+- Monday and Friday 12-1 (in-person) 
+- Tuesday 10-11 (in-person)
 - Thursday 10-11 (online)
 
 Office: 14-235C

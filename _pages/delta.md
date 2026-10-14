@@ -23,9 +23,11 @@ I recommend using `conda` to create a Python environment and install dependencie
 
 ## Downloading data to Delta
 
-You should not use `scp` to move data to Delta or otherwise run long downloads through on the login node or in CPU jobs.
+You should not use `scp` to move data to Delta or run long downloads through the login node.
 
-Instead, whenever possible, use Globus Connect to transfer data to Delta:
+One option is to a CPU batch job to download data, for example using `wget` or `curl` or the Kaggle CLI.
+
+Alternatively, you can use Globus Connect to transfer data to Delta:
 
 1. Install [Globus Connect Personal](https://www.globus.org/globus-connect-personal) onto your personal machine.
 2. Start the app and login with your credentials
@@ -56,7 +58,7 @@ Here is an example Slurm file for a CPU job:
 #SBATCH --mem=50G
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=16
+#SBATCH --cpus-per-task=1
 #SBATCH --constraint="scratch"
 #SBATCH --account=<project>-delta-cpu
 #SBATCH -t 04:00:00

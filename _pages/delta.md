@@ -25,7 +25,7 @@ I recommend using `conda` to create a Python environment and install dependencie
 
 You should not use `scp` to move data to Delta or run long downloads through the login node.
 
-One option is to a CPU batch job to download data, for example using `wget` or `curl` or the Kaggle CLI.
+One option is to use a CPU batch job to download data, for example using `wget` or `curl` or the Kaggle CLI (see below regarding batch jobs).
 
 Alternatively, you can use Globus Connect to transfer data to Delta:
 

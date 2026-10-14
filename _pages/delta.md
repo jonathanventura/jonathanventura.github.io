@@ -21,6 +21,16 @@ I recommend you use VS Code to connect to Delta rather than SSH via the terminal
 
 I recommend using `conda` to create a Python environment and install dependencies for your project.  Be sure to activate the conda environment before running any batch jobs.
 
+## Downloading data to Delta
+
+You should not use `scp` to move data to Delta or otherwise run long downloads through on the login node or in CPU jobs.
+
+Instead, whenever possible, use Globus Connect to transfer data to Delta:
+
+1. Install [Globus Connect Personal](https://www.globus.org/globus-connect-personal) onto your personal machine.
+2. Start the app and login with your credentials
+3. Login to the [Globus web interface](https://www.globus.org) to set up transfer jobs between your machine and Delta.
+   
 ## Running jobs
 
 You need to know your project ID, which can be found by running `accounts`.  The project ID is the four letter code before `-delta-cpu` or `-delta-gpu`.

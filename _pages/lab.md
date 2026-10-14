@@ -11,6 +11,8 @@ El Capitan is our on-campus Linux server with four NVidia V100 GPUs (32 GB RAM e
 
 Half Dome is our Windows workstation with two Nvidia RTX 3090 GPUs and a Meta Quest 2 headset.  This workstation is ideal for running ArcGIS Pro and virtual reality experiments.
 
+For information on how to use NCSA Delta, [see here](https://jonathanventura.github.io/delta/).
+
 ## Frequently Asked Questions ##
 
 Here are answers to frequently asked questions about working on the El Capitan server.

@@ -29,7 +29,34 @@ You need to know your project ID, which can be found by running `accounts`.  The
 
 Any significant task or computation needs to be run either as a batch job or in an interactive session (see below).
 
+Please choose the least expensive partition and configuration that meets your requirements.  The partition types and their charge factors are listed [on this page](https://docs.ncsa.illinois.edu/systems/delta/en/latest/user_guide/running_jobs.html).  GPU jobs are more expensive than CPU, and the higher-end GPUs are more expensive than the lower-end ones.
+
 To run a batch job, you need to make a `.slurm` file that contains the job configuration and the commands to run.
+
+To queue the job, use `sbatch <filename>.slurm`.
+
+You can check the status of jobs you have submitted with: `queue -u <username>`
+
+Here is an example Slurm file for a CPU job:
+
+```sh
+#!/bin/bash
+#SBATCH --job-name="<job name>"
+#SBATCH --partition=cpu
+#SBATCH --mem=50G
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16
+#SBATCH --constraint="scratch"
+#SBATCH --account=<project>-delta-cpu
+#SBATCH -t 04:00:00
+#SBATCH -e sout/slurm-%j.err
+#SBATCH -o sout/slurm-%j.out
+
+srun <your command here>
+```
+
+Here is an example for a GPU job:
 
 ```sh
 #!/bin/bash
@@ -47,7 +74,7 @@ To run a batch job, you need to make a `.slurm` file that contains the job confi
 #SBATCH -e sout/slurm-%j.err
 #SBATCH -o sout/slurm-%j.out
 
-srun python3 run_all_scenes.py
+srun <your command here>
 ```
 
 ## Starting an interactive session

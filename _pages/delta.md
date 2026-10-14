@@ -30,7 +30,7 @@ One option is to use a CPU batch job to download data, for example using `wget` 
 Alternatively, you can use Globus Connect to transfer data to Delta:
 
 1. Install [Globus Connect Personal](https://www.globus.org/globus-connect-personal) onto your personal machine.
-2. Start the app and login with your credentials
+2. Start the app and login with your credentials.
 3. Login to the [Globus web interface](https://www.globus.org) to set up transfer jobs between your machine and Delta.
    
 ## Running jobs

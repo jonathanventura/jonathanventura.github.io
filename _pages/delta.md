@@ -19,7 +19,7 @@ I recommend you use VS Code to connect to Delta rather than SSH via the terminal
 
 ## Running jobs
 
-You need to know your project ID, which can be found by running `accounts`
+You need to know your project ID, which can be found by running `accounts`.  The project ID is the four letter code before `-delta-cpu` or `-delta-gpu`.
 
 ## Running a batch job
 

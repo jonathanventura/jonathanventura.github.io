@@ -5,8 +5,6 @@ permalink: /delta/
 author_profile: false
 ---
 
-# Using NCSA Delta
-
 For more information, see the [complete Delta user guide](https://docs.ncsa.illinois.edu/systems/delta/en/latest/index.html).
 
 ## Logging in

@@ -37,7 +37,7 @@ Alternatively, you can use Globus Connect to transfer data to Delta:
 
 You need to know your project ID, which can be found by running `accounts`.  The project ID is the four letter code before `-delta-cpu` or `-delta-gpu`.
 
-## Running a batch job
+### Running a batch job
 
 Any significant task or computation needs to be run either as a batch job or in an interactive session (see below).
 
@@ -89,7 +89,7 @@ Here is an example for a GPU job:
 srun <your command here>
 ```
 
-## Starting an interactive session
+### Starting an interactive session
 
 Interactive sessions are more expensive than batch jobs and are limited to one hour per session and one session at a time.  But, they can be useful for debugging your code before you set up a long run.
 

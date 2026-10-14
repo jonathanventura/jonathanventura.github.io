@@ -24,7 +24,7 @@ I recommend you use VS Code to connect to Delta rather than SSH via the terminal
 
 ## Setting up a Python environment
 
-I recommend using `conda` to create a Python environment and install dependencies for your project.  Be sure to activate the conda environment before running any batch jobs.
+You can create a Python virtual environment or install Miniconda and manage environments through `conda`.  If using Conda, you can activate the conda environment before your start a batch job.
 
 ## Downloading data to Delta
 

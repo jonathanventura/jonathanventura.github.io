@@ -17,6 +17,10 @@ I recommend you use VS Code to connect to Delta rather than SSH via the terminal
 2. Once the host has been added, use "Remote-SSH: Connect Current Window to Host" and select Delta.
 3. You will need to enter your password and then do multi-factor authentication as described above each time you log in.
 
+## Setting up a Python environment
+
+I recommend using `conda` to create a Python environment and install dependencies for your project.  Be sure to activate the conda environment before running any batch jobs.
+
 ## Running jobs
 
 You need to know your project ID, which can be found by running `accounts`.  The project ID is the four letter code before `-delta-cpu` or `-delta-gpu`.
@@ -24,6 +28,8 @@ You need to know your project ID, which can be found by running `accounts`.  The
 ## Running a batch job
 
 Any significant task or computation needs to be run either as a batch job or in an interactive session (see below).
+
+To run a batch job, you need to make a `.slurm` file that contains the job configuration and the commands to run.
 
 ```sh
 #!/bin/bash
